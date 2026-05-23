@@ -1,0 +1,49 @@
+/* --- RESET DO CSS --- */
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+/* --- VARIÁVEIS CSS --- */
+:root {
+ 
+    /* --- CORES --- */
+    --color-red:         #FC3314;
+    --color-pink:        #FFD4D0;
+    --color-dark:        #1F1F1F;
+    --color-dark-grey:   #8D8D8D;
+    --color-medium-grey: #E1E1E1;
+    --color-grey:        #F7F7F7;
+    --color-white:       #FFFFFF;
+ 
+    /* -- SIZE -- */
+    --font-size-h1:      64px;
+    --font-size-h2:      48px;
+    --font-size-h3:      36px;
+    --font-size-body-xl: 20px;
+    --font-size-body-lg: 18px;
+    --font-size-body-md: 16px;
+    --font-size-body-sm: 14px;
+    --font-size-body-xs: 12px;
+ 
+    /* -- WEIGHT -- */
+    --font-weight-h1:      700;
+    --font-weight-h2:      500;
+    --font-weight-h3:      500;
+    --font-weight-body-xl: 400;
+    --font-weight-body-lg: 400;
+    --font-weight-body-md: 400;
+    --font-weight-body-sm: 400;
+    --font-weight-body-xs: 400;
+ 
+    /* -- FAMILY -- */
+    --font-family-primary: "Montserrat", sans-serif;
+}
+ 
+html {
+    font-family: var(--font-family-primary);
+}
+ 
+

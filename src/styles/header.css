@@ -29,6 +29,8 @@ header{
 
 .btn-header{
     text-decoration: none;
+    display: flex;
+    gap: 20px;
     background-color: var(--color-dark);
     color: var(--color-white);
     padding: 12px 24px;

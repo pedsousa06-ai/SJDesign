@@ -1,77 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sarah Jones – UX Designer</title>
+    <title>SJ Design | Sarah Jones - UX Designer</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/styles/main.css">
 </head>
+
 <body>
 
-<main>
-    <section class="hero">
+    <main>
+        <div class="main-content">
+            <span>UX Designer</span>
 
-        <!-- Lado esquerdo: texto -->
-        <div class="hero__content">
-            <span class="hero__label">UX Designer</span>
-            <h1 class="hero__title">
-                Hi There, I'm<br>
-                <span class="hero__name">Sarah Jones</span>
+            <h1>
+                Hi There, I'm <br>
+                <span>Sarah Jones</span>
             </h1>
-            <p class="hero__description">
-                Welcome to my portfolio of captivating digital
-                experiences. Explore my work and let's create something
+
+            <p>
+                Welcome to my portfolio of captivating digital<br>
+                experiences. Explore my work and let's create something<br>
                 extraordinary together.
             </p>
-            <div class="hero__actions">
-                <a href="#" class="btn btn--primary">Hire Me</a>
-                <a href="#" class="btn btn--outline">Portfolio</a>
+
+            <div class="container-cta">
+                <a href="#" class="btn-primary">Hire Me</a>
+                <a href="#" class="btn-secondary">Portfolio</a>
             </div>
         </div>
 
-        <!-- Lado direito: ilustração + foto -->
-        <div class="hero__visual">
-
-            <!-- Letras "UX" de fundo -->
-            <div class="hero__letters" aria-hidden="true">
-                <span class="letter letter--u">U</span>
-                <span class="letter letter--x">X</span>
-            </div>
-
-            <!-- Ícones decorativos -->
-            <div class="deco deco--wave" aria-hidden="true">
-                <svg width="48" height="32" viewBox="0 0 48 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M2 16 C8 4, 16 4, 24 16 S40 28, 46 16" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" fill="none"/>
-                </svg>
-            </div>
-
-            <div class="deco deco--dash1" aria-hidden="true"></div>
-            <div class="deco deco--dash2" aria-hidden="true"></div>
-
-            <div class="deco deco--chevrons" aria-hidden="true">
-                <svg width="36" height="52" viewBox="0 0 36 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <polyline points="4,4 18,16 32,4"  stroke="#FC3314" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-                    <polyline points="4,20 18,32 32,20" stroke="#FC3314" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-                    <polyline points="4,36 18,48 32,36" stroke="#FC3314" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-                </svg>
-            </div>
-
-
-            <div class="hero__photo-wrapper">
-                <img
-                    class="hero__photo"
-                    src="./src/assets/images/image-main.svg"
-                    alt="Sarah Jones"
-                    onerror="this.style.display='none'"
-                >
-            </div>
-
+        <div class="main-image">
+            <img src="./src/assets/images/image-main.svg" alt="Sarah Jones">
         </div>
+    </main>
     </section>
-</main>
+
 
 </body>
+
 </html>

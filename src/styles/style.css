@@ -40,3 +40,88 @@ header{
     background-color: #424242;
 }
 
+/* ---- MAIN ---- */
+
+main {
+    display: flex; /* Para que o grupo fique ao lado do outro */
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center; /* Centraliza na vertical */
+    gap: 80px; /* Distância entre os elementos */
+    background-color: var(--color-pink); /* Cor de fundo */
+    min-height: calc(100vh - 78px); /* Ocupa o restante da tela após o header */
+    padding: 0 120px; /* Espaçamento interno lateral */
+}
+
+.main-content {
+    display: flex; /* Para que o grupo fique ao lado do outro */
+    flex-direction: column; /* Empilha os elementos na vertical */
+    gap: 20px; /* Distância entre os elementos */
+    width: 480px; /* Largura do container */
+}
+
+.main-content > span {
+    font-family: var(--font-family-primary); /* Família da fonte */
+    font-size: var(--font-size-body-sm); /* Tamanho da fonte */
+    font-weight: var(--font-weight-body-sm); /* Espessura da fonte */
+    color: var(--color-dark); /* Cor do texto */
+    text-transform: uppercase; /* Texto em maiúsculo */
+    letter-spacing: 1.28px; /* Espaçamento entre letras */
+}
+
+.main-content h1 {
+    font-size: var(--font-size-h1); /* Tamanho da fonte */
+    font-weight: var(--font-weight-h1); /* Espessura da fonte */
+    font-family: var(--font-family-primary); /* Família da fonte */
+    line-height: 1.1; /* Espaçamento entre linhas */
+    color: var(--color-dark); /* Cor do texto */
+}
+
+.main-content h1 span {
+    display: block; /* Ocupa linha inteira */
+    font-family: var(--font-family-primary); /* Família da fonte */
+    font-weight: var(--font-weight-h1); /* Espessura da fonte */
+    color: var(--color-red); /* Cor do texto em destaque */
+}
+
+.main-content p {
+    font-family: var(--font-family-primary); /* Família da fonte */
+    color: var(--color-dark); /* Cor do texto */
+    line-height: 1.75; /* Espaçamento entre as linhas */
+    width: 457px; /* Largura máxima */
+}
+
+.container-cta {
+    display: flex; /* Para que o grupo fique ao lado do outro */
+    align-items: center; /* Centraliza na vertical */
+    gap: 16px; /* Distância entre os elementos */
+}
+
+.btn-primary,
+.btn-secondary {
+    padding: 14px 36px; /* Espaçamento interno */
+    font-weight: var(--font-weight-h1); /* Espessura da fonte */
+    text-decoration: none; /* Remove a decoração do texto */
+    font-family: var(--font-family-primary); /* Família da fonte */
+    font-size: var(--font-size-body-md); /* Tamanho da fonte */
+    transition: 0.3s; /* Transição suave ao passar o mouse */
+}
+
+.btn-primary {
+    background-color: var(--color-dark); /* Cor de fundo */
+    color: var(--color-white); /* Cor do texto */
+}
+
+.btn-primary:hover {
+    background-color: #424242; /* Cor de fundo ao passar o mouse */
+}
+
+.btn-secondary {
+    background-color: var(--color-white); /* Cor de fundo */
+    color: var(--color-dark); /* Cor do texto */
+    border: 2px solid var(--color-dark); /* Borda */
+}
+
+.btn-secondary:hover {
+    background-color: rgba(0, 0, 0, 0.05); /* Cor de fundo ao passar o mouse */
+}
+

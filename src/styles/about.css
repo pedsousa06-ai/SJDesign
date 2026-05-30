@@ -1,0 +1,44 @@
+@import url(./global.css);
+
+html {
+    font-family: var(--font-family-primary);
+}
+
+.about {
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    text-align: center;
+    padding: 50px;
+}
+
+.about-text {
+    padding: 20px;
+}
+
+.about-text h2 {
+    font-size: var(--font-size-h2);
+    padding: 24px;
+}
+
+.about-text p {
+    display: flex;
+    justify-content: center;
+    font-size: var(--font-size-body-lg);
+    width: 810px;
+    margin: 0 auto;
+}
+
+.numeros {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.item h3 {
+    font-size: var(--font-size-h3);
+}
+
+.item p {
+    font-size: var(--font-size-body-xl);
+}
+

@@ -1,23 +1,97 @@
 @import url(./global.css);
 
-.container-design {
-    display: flex
-    flex-direction: column;
-    justify-content: center;
-    gap: 48px;
-    background: var(--color-grey);
-}
-
-.content-design {
+/* Section */
+.container-design{
+    padding: 90px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 48px;
+    background-color: var(--color-grey);
+}
+
+/* Cabeçalho */
+.content-design{
+    width: 800px;
+    text-align: center;
 }
 
 .content-design h2{
     font-size: var(--font-size-h3);
-    font-weight: var(--font-weight-h3);
+    font-weight: var(--font-weight-h1);
+    margin-bottom: 16px;
+    color: var(--color-dark);
 }
 
+.content-design p{
+    font-size: var(--font-size-body-md);
+    font-weight: var(--font-weight-body-md);
+    color: var(--color-dark);
+}
+
+/* Container dos Cards */
+.cards-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 92px;
+}
+
+/* Card */
+.cards-design{
+    width: 336px;
+    background: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+    gap: 8px;
+}
+
+.cards-design:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+/* Data */
+.cards-design p:first-of-type{
+    margin: 16px 16px 8px;
+    font-size: var(--font-size-body-xs);
+    font-weight: var(--font-weight-body-xs);
+    color: var(--color-dark);
+}
+
+/* Título */
+.cards-design h3{
+    font-size: var(--font-size-body-md);
+    font-weight: var(--font-weight-h1);
+    color: var(--color-dark);
+}
+
+/* Descrição */
+.cards-design p:last-of-type{
+    font-size: var(--font-size-body-sm);
+    font-weight: var(--font-weight-body-sm);
+    color: var(--color-dark);
+}
+
+/* Link */
+.cards-design a{
+    margin: 16px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: var(--font-size-body-xs);
+    font-weight: var(--font-weight-h1);
+    color: var(--color-dark);
+}
+
+.cards-content{
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+    gap: 8px;
+}
+
+.btn-content{
+ margin-top: 20px;
+}
